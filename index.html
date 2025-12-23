@@ -1,10 +1,251 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="utf-8">
-  <title>TaVGmbH</title>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title> Nicholas Ezra Pfaff </title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
 </head>
+
 <body>
-  <h1>TaVGmbH</h1>
+    <div style="width:1000px;margin: 0px auto;">
+        <header id="header" width="400px" style="display:flex;justify-content: space-around;">
+            <a href="#profile-intro">Home</a>
+            <a href="#news">News</a>
+            <a href="#research">Research</a>
+            <a href="#hobbies">Outside the Lab</a>
+        </header>
+        <div id="profile">
+            <div id="profile-pic">
+                <img src="assets/images/tanja.jpg" />
+                <p style="text-align:left;margin-top:-15px;">Picture taken by <a href="https://pangtao.xyz/">Tao
+                        Pang</a></p>
+            </div>
+            <div id="profile-intro">
+                <div id="profile-name">Nicholas Ezra Pfaff</div>
+                <div id="profile-email">nepfaff at mit dot edu</div>
+                <p>
+                    I am a third-year PhD student at MIT, where I am advised
+                    by Prof. <a href="https://groups.csail.mit.edu/locomotion/russt.html">Russ Tedrake</a> in the
+                    <a href="https://locomotion.csail.mit.edu/people.html">Robot Locomotion Group</a>.
+                </p>
+                <p>
+                    My research aims to scale realistic simulations for generating training data and evaluation
+                    benchmarks for robotic manipulation foundation models. I enjoy combining model-based and
+                    learning-based methods to tackle
+                    this challenge.
+                </p>
+                <p>
+                    Before joining MIT, I completed my MEng at Imperial College London and spent nine months at
+                    Ocado Technology, where I worked on parallel yaw pick-and-place systems at scale.
+                </p>
+                <p>
+                    Outside of academia, I am passionate about rock climbing, backpacking, Latin social dancing, and
+                    specialty coffee.
+                </p>
+                <div>
+                    <a href="https://github.com/nepfaff">
+                        Github
+                    </a>
+                    /
+                    <a href="https://scholar.google.com.hk/citations?hl=en&pli=1&user=LDko8mYAAAAJ">
+                        Google Scholar
+                    </a>
+                    /
+                    <a href="https://x.com/NicholasEPfaff">
+                        Twitter
+                    </a>
+                    /
+                    <a href="https://www.youtube.com/channel/UCJfcpkB6aiZpBgWUrTdVLdw">
+                        YouTube
+                    </a>
+                    /
+                    <a href="https://www.linkedin.com/in/nicholas-ezra-pfaff/">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="divider"></div>
+        <div style="display:flex;flex-direction: column;" id="news">
+            <h1>News</h1>
+            <ul>
+                <li> <b>Oct 2025</b> Gave an invited talk at the IROS <a href="https://internrobotics.shlab.org.cn/workshop/2025/">Multimodal Robot Learning in Physical Worlds</a> workshop </li>
+                <li> <b>Sep 2025</b> Gave an invited talk and participated in a panel discussion at the CoRL <a
+                        href="https://simulatingrobotworlds.github.io/">Learning to Simulate Robot Worlds</a> workshop
+                </li>
+                <li> <b>Aug 2025</b> Gave an invited talk at TRI on "Achieving Simulation Diversity for Pretraining and
+                    Evaluation of Robot Foundation Models"</li>
+                <li> <b>Jun 2025</b> Featured in the <a href="https://bit.ly/4e5phna">MIT CSAIL Student Research
+                        Spotlight</a>
+                <li> <b>May 2025</b> Received the <a
+                        href="https://gsc.mit.edu/about/committees/arc/institute-awards/">Graduate Teaching Award</a>
+                    for the MIT Schwarzman College of Computing for TAing MIT's <a
+                        href="https://manipulation.csail.mit.edu/Fall2024/index.html">Robotic Manipulation</a> class
+                    (presented annually to one faculty member or teaching assistant)
+                <li> <b>May 2024</b> Joined Toyota Research Institute's Large Behavior Models team in Los Altos for an
+                    internship
+                <li> <b>Sep 2023</b> Joined the Robot Locomotion Group for my Ph.D.
+                <li> <b>Sep 2022</b> Received the Head of Department's prize from Imperial College London for being the
+                    top performing student in my course
+            </ul>
+            <p></p>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="divider"></div>
+        <div style="display:flex;flex-direction: column;" id="research">
+            <h1>Research</h1>
+            <div>
+                <!-- <a href="https://steerable-scene-generation.github.io/" style="height: 14em;" class="research-thumb">
+                    <video width="320" height="auto" autoplay loop muted>
+                        <source src="assets/images/umi_thumbnail.mp4" type="video/mp4">
+                    </video>
+                </a> -->
+                <a href="https://steerable-scene-generation.github.io/" style="height: 13em;" class="research-thumb">
+                    <img width="320" src="assets/images/steerable_scene_gen_teaser.webp" alt="">
+                </a>
+                <a href="https://steerable-scene-generation.github.io/" class="research-proj-title">
+                    Steerable Scene Generation with Post Training and Inference-Time Search
+                </a>
+                <p>
+                    <b>Nicholas Pfaff</b>,
+                    <a style="color:#000;" href="https://hongkai-dai.github.io/">Hongkai Dai</a>,
+                    <a style="color:#000;" href="https://zakharos.github.io/">Sergey Zakharov</a>,
+                    <a style="color:#000;" href="https://sh8.io/">Shun Iwase</a>,
+                    <a style="color:#000;" href="https://locomotion.csail.mit.edu/russt.html">Russ Tedrake</a>
+                    <br>Conference on Robot Learning (CoRL 2025)<br>
+                    <a href="https://steerable-scene-generation.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2505.04831">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a
+                        href="https://github.com/nepfaff/steerable-scene-generation">GitHub</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a
+                        href="https://news.mit.edu/2025/using-generative-ai-diversify-virtual-training-grounds-robots-1008">News
+                        Coverage</a>
+                </p>
+            </div>
+
+            <div>
+                <a href="https://scalable-real2sim.github.io/" style="height: 11em;" class="research-thumb">
+                    <img width="320" src="assets/images/scalable_real2sim_teaser.png" alt="">
+                </a>
+                <a href="https://scalable-real2sim.github.io/" class="research-proj-title">
+                    Scalable Real2Sim: Physics-Aware Asset Generation Via Robotic Pick-and-Place Setups
+                </a>
+                <p>
+                    <b>Nicholas Pfaff</b>,
+                    <a style="color:#000;" href="https://www.linkedin.com/in/evelyn-fu02/">Evelyn Fu</a>,
+                    <a style="color:#000;" href="https://jeremy-binagia.com/">Jeremy Binagia</a>,
+                    <a style="color:#000;" href="https://web.mit.edu/phillipi/">Phillip Isola</a>,
+                    <a style="color:#000;" href="https://locomotion.csail.mit.edu/russt.html">Russ Tedrake</a>
+                    <br>International Conference on Intelligent Robots and Systems (IROS 2025)
+                    <br>New England Manipulation Symposium (NEMS 2025), Oral<br>
+                    <a href="https://scalable-real2sim.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2503.00370">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/nepfaff/scalable-real2sim">GitHub</a>
+                </p>
+            </div>
+
+            <div>
+                <a href="https://sim-and-real-cotraining.github.io/" style="height: 12em;" class="research-thumb">
+                    <img width="320" src="assets/images/cotraining_teaser.png" alt="">
+                </a>
+                <a href="https://sim-and-real-cotraining.github.io/" class="research-proj-title">
+                    Empirical Analysis of Sim-and-Real Cotraining of Diffusion Policies for Planar Pushing from Pixels
+                </a>
+                <p>
+                    <a style="color:#000;" href="https://adamwei.com/">Adam Wei</a>,
+                    <a style="color:#000;" href="https://sites.mit.edu/abhinav/">Abhinav Agarwal</a>,
+                    <a style="color:#000;" href="https://boyuan.space/">Boyuan Chen</a>,
+                    <a style="color:#000;" href="https://www.linkedin.com/in/rohan-b-92940b201/">Rohan Bosworth</a>,
+                    <b>Nicholas Pfaff</b>,
+                    <a style="color:#000;" href="https://locomotion.csail.mit.edu/russt.html">Russ Tedrake</a>
+                    <br>International Conference on Intelligent Robots and Systems (IROS 2025)<br>
+                    <a href="https://sim-and-real-cotraining.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2503.22634">ArXiv</a>
+                </p>
+            </div>
+
+            <div>
+                <a href="https://diffusion-learns-kinematic.github.io/" style="height: 12em;" class="research-thumb">
+                    <img width="320" src="assets/images/diffusion_constraints_teaser.webp" alt="">
+                </a>
+                <a href="https://diffusion-learns-kinematic.github.io/" class="research-proj-title">
+                    How Well do Diffusion Policies Learn Kinematic Constraint Manifolds?
+                </a>
+                <p>
+                    <a style="color:#000;" href="https://www.linkedin.com/in/lexi-foland-420482292/">Lexi Foland</a>,
+                    <a style="color:#000;" href="https://tommycohn.com/">Thomas Cohn</a>,
+                    <a style="color:#000;" href="https://adamwei.com/">Adam Wei</a>,
+                    <b>Nicholas Pfaff</b>,
+                    <a style="color:#000;" href="https://boyuan.space/">Boyuan Chen</a>,
+                    <a style="color:#000;" href="https://locomotion.csail.mit.edu/russt.html">Russ Tedrake</a>
+                    <br>Under Review<br>
+                    <a href="https://diffusion-learns-kinematic.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2510.01404">ArXiv</a>
+                </p>
+            </div>
+
+            <!-- <div>
+                <p>* indicates equal contribution</p>
+            </div> -->
+
+            <div style="clear: both;"></div>
+        </div>
+
+        <div class="divider"></div>
+        <div style="display:flex;flex-direction: column;" id="hobbies">
+            <h1>Outside the Lab</h1>
+            <p>
+                I enjoy staying active in my free time. These days, that means bouldering and Latin social dancing
+                (Salsa & Bachata)
+                several times a week. In the past, I competed in long-distance running and rowing. During holidays, I
+                often trek, backpack, or cycle in different parts of the world.
+            </p>
+            <div class="hobby_img">
+                <img src="assets/images/bulgaria.jpg" alt="Camping in Bulgaria" />
+                <img src="assets/images/bouldering.jpg" alt="Bouldering indoors" />
+                <img src="assets/images/kilimanjaro.jpg" alt="Kilimanjaro Uhuru peak" />
+                <img src="assets/images/imperial_dance_show.jpg" alt="Imperial College London Dance Showcase" />
+            </div>
+
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+
+    <footer
+        style="text-align: center; padding: 20px; color: var(--grey); border-top: 1px solid #ddd; margin-top: 40px;">
+        ©
+        <script>document.write(new Date().getFullYear())</script> Nicholas Ezra Pfaff. All rights reserved.
+    </footer>
+
+    <script>
+        document.querySelectorAll('header a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Open all external links in new tabs
+        document.querySelectorAll('a[href^="http"]').forEach(link => {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+        });
+    </script>
 </body>
+
 </html>
