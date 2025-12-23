@@ -8,13 +8,15 @@
     --pink1: #F9564F;
 }
 
+html {
+    font-size: 120%;
+}
+
 html,
 p {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
